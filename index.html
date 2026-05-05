@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brylle Snow Paurillo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">BP.</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-title">Brylle Snow Paurillo</h1>
+            <h2 class="hero-subtitle">
+                I'm a <span class="typing-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-description">
+                I'm a student at CIT-U studying Bachelor of Science in Information Technology.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-img-wrapper">
+                <img src="images/gradpic.jpg" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image reveal-left">
+                    <img src="images/gradpic.jpg" alt="Working">
+                </div>
+                <div class="about-text reveal-right">
+                    <h3>Aspiring Developer & Tech Enthusiast</h3>
+                    <p>
+                        I'm a first-year college student just beginning my journey into the world of coding. 
+                        I'm currently learning the fundamentals of web development and exploring how to build simple, 
+                        functional websites. Every day brings something new, and I'm excited to see where this path leads.
+                    </p>
+                    <p>
+                        When I'm not studying or in class, you'll find me watching coding tutorials, 
+                        experimenting with small projects, or figuring out why my code isn't working (usually a missing semicolon).
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="11">0</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="5">0</span>
+                            <span class="stat-label">Months Exp.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="45%"></div>
+                    </div>
+                    <span>45%</span>
+                </div>
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="50%"></div>
+                    </div>
+                    <span>50%</span>
+                </div>
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="0%"></div>
+                    </div>
+                    <span>0%</span>
+                </div>
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-node"></i>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="0%"></div>
+                    </div>
+                    <span>0%</span>
+                </div>
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="0%"></div>
+                    </div>
+                    <span>0%</span>
+                </div>
+                <div class="skill-card reveal-up">
+                    <i class="fab fa-figma"></i>
+                    <h3>UI/UX Design</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="0%"></div>
+                    </div>
+                    <span>0%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    
+                        <section id="projects" class="projects section">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">11 coding activities I've worked on — click any to view!</p>
+        
+        <div class="projects-grid">
+            <!-- Activity 1 -->
+            <a href="https://number1-lovat.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop" alt="Activity 1">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 1</h3>
+                    <p>Introduction</p>
+                    <div class="project-tags">
+                        <span>AGE</span>
+                        <span>ADDRESS</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 2 -->
+            <a href="https://number2-two.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop" alt="Activity 2">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 2</h3>
+                    <p>Favorite Things</p>
+                    <div class="project-tags">
+                        <span>Manhwas</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 3 -->
+            <a href="https://number3-puce.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=400&fit=crop" alt="Activity 3">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 3</h3>
+                    <p>Expensive, Luxurious Cars</p>
+                    <div class="project-tags">
+                        <span>Cars</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 4 -->
+            <a href="https://number4-one.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=600&h=400&fit=crop" alt="Activity 4">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 4</h3>
+                    <p>User Information</p>
+                    <div class="project-tags">
+                        <span>Name</span>
+                        <span>Age</span>
+                        <span>Hobbies</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 5 -->
+            <a href="https://number5-lake.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop" alt="Activity 5">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 5</h3>
+                    <p>Broken Hearted Restaurant</p>
+                    <div class="project-tags">
+                        <span>Restaurant</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 6 -->
+            <a href="https://brew-haven-cafe-5dto.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=600&h=400&fit=crop" alt="Activity 6">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 6</h3>
+                    <p>A cafe to soothe your nerves.</p>
+                    <div class="project-tags">
+                        <span>Coffee</span>
+                        <span>Cakes</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 7 -->
+            <a href="https://number7-kappa.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1550439062-609e1531270e?w=600&h=400&fit=crop" alt="Activity 7">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 7</h3>
+                    <p>My First Javascript</p>
+                    <div class="project-tags">
+                        <span>Javascript</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 8 -->
+            <a href="https://number8-eight.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=600&h=400&fit=crop" alt="Activity 8">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 8</h3>
+                    <p>Javascript  Alert.</p>
+                    <div class="project-tags">
+                        <span>Alert</span>
+                        <span>Notification</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 9 -->
+            <a href="https://number9-tan.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop" alt="Activity 9">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 9</h3>
+                    <p>Javascript prompt</p>
+                    <div class="project-tags">
+                        <span>Prompt</span>
+                        <span>Input</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 10 -->
+            <a href="https://number10.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop" alt="Activity 10">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 10</h3>
+                    <p>Arithmetic Operators</p>
+                    <div class="project-tags">
+                        <span>Math</span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Activity 11 -->
+            <a href="https://number11-3kgy.vercel.app" target="_blank" rel="noopener noreferrer" class="project-card" data-category="activity">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop" alt="Activity 11">
+                    <div class="project-overlay">
+                        <span class="view-btn"><i class="fas fa-eye"></i> View</span>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Activity 11</h3>
+                    <p>FOR DO WHILE LOOPS</p>
+                    <div class="project-tags">
+                        <span>Loops</span>
+                        <span>Math</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info reveal-left">
+                    <h3>Let's Talk</h3>
+                    <p>Have a project in mind? I'd love to hear about it.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bryllesnowpaurillo@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+63 961 0900 698</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pardo, Cebu City</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form reveal-right" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" required placeholder="Subject">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Brylle Snow Paurillo. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button id="scrollTop" class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
