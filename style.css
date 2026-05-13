@@ -1,4 +1,4 @@
-/* CSS Variables for Theming */
+
 :root {
     --primary-color: #6366f1;
     --primary-hover: #4f46e5;
@@ -42,7 +42,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Navigation */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -146,7 +146,7 @@ body {
     transition: var(--transition);
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -310,7 +310,7 @@ body {
     object-fit: cover;
 }
 
-/* Sections */
+
 .section {
     padding: 5rem 2rem;
 }
@@ -342,7 +342,7 @@ body {
     border-radius: 2px;
 }
 
-/* About */
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -389,7 +389,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Skills */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -436,7 +436,7 @@ body {
     transition: width 1.5s ease;
 }
 
-/* Projects */
+
 .section-subtitle {
     text-align: center;
     color: var(--text-muted);
@@ -444,14 +444,14 @@ body {
     font-size: 1.1rem;
 }
 
-/* Projects Grid - 11 items */
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 1.5rem;
 }
 
-/* Project Card as Link */
+
 .project-card {
     background: var(--card-bg);
     border-radius: 12px;
@@ -486,7 +486,7 @@ body {
     transform: scale(1.08);
 }
 
-/* Overlay */
+
 .project-overlay {
     position: absolute;
     inset: 0;
@@ -520,7 +520,7 @@ body {
     transform: translateY(0);
 }
 
-/* Project Info */
+
 .project-info {
     padding: 1.25rem;
 }
@@ -554,7 +554,7 @@ body {
     border: 1px solid var(--border-color);
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .projects-grid {
         grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -572,7 +572,7 @@ body {
     }
 }
 
-/* Contact */
+
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -664,7 +664,7 @@ body {
     color: var(--primary-color);
 }
 
-/* Footer */
+
 .footer {
     background: var(--bg-secondary);
     padding: 2rem;
@@ -693,7 +693,7 @@ body {
     color: var(--primary-color);
 }
 
-/* Scroll to Top */
+
 .scroll-top {
     position: fixed;
     bottom: 2rem;
@@ -724,7 +724,7 @@ body {
     box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
 }
 
-/* Animations */
+
 .reveal-up,
 .reveal-left,
 .reveal-right {
@@ -751,7 +751,7 @@ body {
     transform: translate(0);
 }
 
-/* Responsive */
+
 @media (max-width: 968px) {
     .hero {
         flex-direction: column-reverse;
