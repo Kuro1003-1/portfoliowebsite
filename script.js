@@ -1,4 +1,4 @@
-// Typing Animation
+
 const typingText = document.querySelector('.typing-text');
 const words = ['Designer', 'Creator', 'Problem Solver', 'Student'];
 let wordIndex = 0;
@@ -30,7 +30,7 @@ function type() {
     setTimeout(type, typeSpeed);
 }
 
-// Theme Toggle
+
 const themeToggle = document.getElementById('theme-toggle');
 const themeIcon = themeToggle.querySelector('i');
 
@@ -43,12 +43,12 @@ themeToggle.addEventListener('click', () => {
     localStorage.setItem('theme', newTheme);
 });
 
-// Load saved theme
+
 const savedTheme = localStorage.getItem('theme') || 'dark';
 document.documentElement.setAttribute('data-theme', savedTheme);
 themeIcon.className = savedTheme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
 
-// Mobile Menu
+
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 
@@ -64,7 +64,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Active Navigation on Scroll
+
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -86,7 +86,7 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Scroll to Top
+
 const scrollTopBtn = document.getElementById('scrollTop');
 
 window.addEventListener('scroll', () => {
@@ -101,7 +101,7 @@ scrollTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-// Intersection Observer for Animations
+
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -50px 0px'
@@ -112,13 +112,13 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('active');
             
-            // Animate skill bars
+          
             const skillBars = entry.target.querySelectorAll('.skill-progress');
             skillBars.forEach(bar => {
                 bar.style.width = bar.getAttribute('data-width');
             });
             
-            // Animate counters
+           
             const counters = entry.target.querySelectorAll('.stat-number');
             counters.forEach(counter => {
                 const target = parseInt(counter.getAttribute('data-target'));
@@ -145,7 +145,7 @@ document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right').forEach(el 
     observer.observe(el);
 });
 
-// Project Filtering
+
 const filterBtns = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
 
@@ -175,7 +175,7 @@ filterBtns.forEach(btn => {
     });
 });
 
-// Contact Form
+
 const contactForm = document.getElementById('contactForm');
 
 contactForm.addEventListener('submit', (e) => {
@@ -187,7 +187,7 @@ contactForm.addEventListener('submit', (e) => {
     btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
     btn.disabled = true;
     
-    // Simulate form submission
+    
     setTimeout(() => {
         btn.innerHTML = '<i class="fas fa-check"></i> Sent!';
         btn.style.background = '#10b981';
@@ -201,7 +201,7 @@ contactForm.addEventListener('submit', (e) => {
     }, 1500);
 });
 
-// Initialize
+
 document.addEventListener('DOMContentLoaded', () => {
     type();
 });
