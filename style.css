@@ -838,3 +838,32 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+.location {
+    background: var(--bg-secondary, #f8f9fa);
+    padding: 4rem 0;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+}
+
+
+.reveal-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+}
+
+.reveal-up.active {
+    opacity: 1;
+    transform: translateY(0);
+}
